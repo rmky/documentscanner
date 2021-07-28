@@ -1,0 +1,24 @@
+{
+    "name": "exface/documentscanner",
+    "require": {
+        "exface/core": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "\\exface\\documentscanner\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Config/",
+            "/Translations/",
+            "/Model/"
+        ]
+    },
+    "extra": {
+        "app": {
+            "app_uid": "0x11ebaec9c4501da0aec9025041000001",
+            "app_alias": "exface.documentscanner",
+            "model_md5": "3450b7b0641430699dd339782f2eeb9e",
+            "model_timestamp": "2021-07-28 14:03:04"
+        }
+    }
+}
